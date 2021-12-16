@@ -1,0 +1,324 @@
+body{
+    background-color: #d7d7d7;
+    margin: 0;
+    padding: 0;
+}
+.site #main{
+    background-color: #FFFEFC;
+    width: 90%;
+    height: 100%;
+}
+
+.site #header {
+    background: #F7CE42;
+}
+.site #header h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 55px;
+}
+
+.site #maincontent {
+    display: inline-block;
+}
+
+/* ----MENU--- */
+
+.sidebarLeft{
+    float: left;
+    width: 15%;
+    height: 1179px;
+    background-color: #1A2C30;
+    text-align: center;
+}
+
+#menu li {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#menu li:hover{
+    background-color: #F7CE42;
+}
+
+/* ------CONTENT----- */
+
+.content {
+    width: 83%;
+    float: right;
+}
+
+.omnieAndYellowBlock h1{
+    color: #1A2C30;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.yellowBlock{
+    position: absolute;
+    background-color: #F7CE42;
+    height: 52px;
+    width: 110px;
+    margin-top: auto;
+}
+
+.quoteAndPhoto{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 30%;
+    vertical-align: top;
+}
+
+.quote{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 35px;
+    width: 60%;
+    padding-left: 20px;
+}
+
+
+.yellowWord{
+    color: #F7CE42;
+}
+
+
+.oMnieText{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #1A2C30;
+    width: 70%;
+    margin: auto;
+}
+
+
+.site #foot {
+    text-align: center;
+    background: #F7CE42;
+    height: 30px;
+}
+.site #foot p {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+}
+
+
+/*---- KONTAKT --- */
+
+.socialMedia{
+    margin-top: 30px;
+}
+
+.socialMedia p{
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.facebookBlock{
+    height: 47px;
+    width: 336px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: #3B5998;
+    border-radius: 5px;
+}
+
+.facebookBlock p{
+    padding-top: 12px;
+}
+
+.facebookBlock a{
+    text-decoration: none;
+}
+
+.facebookBlock:hover{
+    cursor: pointer;
+    box-shadow: 0 0px 15px rgb(103, 136, 207);
+}
+
+.twitterBlock{
+    height: 47px;
+    width: 336px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: #00ACEE;
+    border-radius: 5px;
+}
+
+.twitterBlock p{
+    padding-top: 12px;
+}
+
+.twitterBlock a{
+    text-decoration: none;
+}
+
+.twitterBlock:hover{
+    cursor: pointer;
+    box-shadow: 0 0px 15px rgb(92, 198, 238);
+}
+
+
+.behanceBlock{
+    height: 47px;
+    width: 336px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: #053EFF;
+    border-radius: 5px;
+}
+
+.behanceBlock p{
+    padding-top: 12px;
+}
+
+.behanceBlock a{
+    text-decoration: none;
+}
+
+.behanceBlock:hover{
+    cursor: pointer;
+    box-shadow: 0 0px 15px rgb(70, 105, 227);
+}
+
+.dribbbleBlock{
+    height: 47px;
+    width: 336px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: #EA4C89;
+    border-radius: 5px;
+}
+
+.dribbbleBlock p{
+    padding-top: 12px;
+}
+
+.dribbbleBlock a{
+    text-decoration: none;
+}
+
+.dribbbleBlock:hover{
+    cursor: pointer;
+    box-shadow: 0 0px 15px rgb(238, 122, 167);
+}
+
+.randomLinkBlock{
+    height: 47px;
+    width: 336px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: #131212;
+    border-radius: 5px;
+}
+
+.randomLinkBlock p{
+    padding-top: 12px;
+}
+
+.randomLinkBlock a{
+    text-decoration: none;
+}
+
+.randomLinkBlock:hover{
+    cursor: pointer;
+    box-shadow: 0 0px 15px rgb(46, 46, 50);
+}
+
+/*-------HOBBY-------*/
+
+
+.kafelekLewy{
+    width: 100%;
+    height: 162px;
+}
+
+.kafelekLewy p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    width: 60%;
+}
+
+.kafelekLewy img{
+    width: 122px;
+    height: 122px;
+    float: left;
+    border: 8px solid #F7CE42;
+}
+
+.kafelekPrawy{
+    height: 162px;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.kafelekPrawy p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    width: 60%;
+}
+
+.kafelekPrawy img{
+    width: 122px;
+    height: 122px;
+    float: right;
+    border: 8px solid #F7CE42;
+}
+
+.zdjecie {
+    margin: 5px;
+    border: 8px solid #F7CE42;
+    width: 180px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.zdjecie img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+.kontaktText{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+
+.hidden{
+    display:none;
+}
+
+.schowajTekst{
+    background-color: #f7ce42;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.schowajTekst:hover{
+    cursor: pointer;
+    box-shadow: 0 3px 15px rgb(245, 216, 120);
+}

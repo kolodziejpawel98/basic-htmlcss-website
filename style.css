@@ -1,0 +1,276 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.site #main{
+    background-color: #FFFEFC;
+    margin: 0 auto;
+    width: 1366px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    height: 1179px;
+}
+p{
+    margin: auto;
+}
+
+.kontaktText{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.site #header {
+    background: #F7CE42;
+    padding: 0 0px 0 0px;
+    height: 150px;
+    text-align: center;
+}
+.site #header h1 {
+    margin: 0;
+    padding: 40px;
+    font-family: 'PT Serif', serif;
+    font-size: 55px;
+}
+.site #maincontent {
+    margin: 2px;
+    padding: 0 0px 0 0px;
+}
+.site #maincontent #sidebarLeft{
+    float: left;
+    width: 155px;
+    height: 1179px;
+    background-color: #1A2C30;
+    padding: 1px 0px 0px 1px;
+    text-align: center;
+}
+
+.site #maincontent #content {
+    margin: 5px 5px 5px 168px;
+    padding: 0 10px;
+    height: auto;
+}
+
+.quoteAndPhoto{
+    display: inline-block;
+    height: auto;
+}
+
+figure{
+    height:auto;
+    display: inline-block;
+}
+
+img{
+    width: 30%;
+}
+
+.yellowWord{
+    color: #F7CE42;
+}
+
+.quote{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 55px;
+    display: inline-block;
+}
+
+.underQuote{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+#content h1{
+    color: #1A2C30;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    display: inline-block;
+    position: relative;
+    margin-left: 30px;
+}
+
+.yellowBlock{
+    position: absolute;
+    background-color: #F7CE42;
+    height: 52px;
+    width: 110px;
+    display: inline-block;
+    margin-top: 45px;
+}
+
+.oMnieText{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #1A2C30;
+    display: inline-block;
+    width: 80%;
+    margin-left: 30px;
+}
+
+
+.site #foot {
+    text-align: center;
+    background: #F7CE42;
+    height: 30px;
+}
+.site #foot p {
+    padding: 8px 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li a{
+    color: white;
+    margin-top: 15px;
+}
+
+#menu a {
+    display: block;
+    margin: 0;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+#menu a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#menu li:hover{
+    background-color: #F7CE42;
+}
+
+.socialMedia{
+    margin-top: 30px;
+}
+
+.socialMedia p{
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.facebookBlock{
+    height: 47px;
+    width: 336px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: #3B5998;
+}
+
+.facebookBlock p{
+    padding-top: 12px;
+}
+
+.twitterBlock{
+    height: 47px;
+    width: 336px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: #00ACEE;
+}
+
+.twitterBlock p{
+    padding-top: 12px;
+}
+
+.behanceBlock{
+    height: 47px;
+    width: 336px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: #053EFF;
+}
+
+.behanceBlock p{
+    padding-top: 12px;
+}
+
+.dribbbleBlock{
+    height: 47px;
+    width: 336px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: #EA4C89;
+}
+
+.dribbbleBlock p{
+    padding-top: 12px;
+}
+
+.kafelekLewy{
+    margin-bottom: 30px;
+    height: 162px;
+}
+
+.kafelekPrawy{
+    margin-bottom: 30px;
+    height: 162px;
+    text-align: right;
+}
+
+.kafelekPrawy p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.kafelekLewy p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.kafelekLewy img{
+    width: 162px;
+    height: 162px;
+    float: left;
+    border: 8px solid #F7CE42;
+}
+
+.kafelekPrawy img{
+    width: 162px;
+    height: 162px;
+    float: right;
+    border: 8px solid #F7CE42;
+}
+
+.zdjecie {
+    margin: 5px;
+    border: 8px solid #F7CE42;
+    width: 180px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.zdjecie img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1;
+}

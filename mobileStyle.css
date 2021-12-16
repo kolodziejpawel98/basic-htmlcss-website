@@ -1,0 +1,357 @@
+body{
+    background-color: #d7d7d7;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.site #main{
+    background-color: #FFFEFC;
+    height: 100%;
+    width: 100%;
+}
+
+.site #header {
+    background: #F7CE42;
+    height: 100px;
+}
+.site #header h1{
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+}
+
+.site #maincontent {
+    display: inline-block;
+}
+
+/* ----MENU--- */
+
+.sidebarLeft{
+    width: 100%;
+    background-color: #1A2C30;
+    text-align: center;
+    height: 40%;
+}
+
+#menu li{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin: auto;
+}
+
+#menu li:hover{
+    background-color: #F7CE42;
+}
+
+/* ------CONTENT----- */
+
+.content {
+}
+
+.omnieAndYellowBlock{
+    display: inline-block;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.omnieAndYellowBlock h1{
+    color: #1A2C30;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.yellowBlock{
+    position: absolute;
+    background-color: #F7CE42;
+    height: 52px;
+    width: 110px;
+    margin-top: 0px;
+}
+
+.quoteAndPhoto{
+    padding-left: 0px;
+}
+
+img{
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 80%;
+}
+
+.quote{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.yellowWord{
+    color: #F7CE42;
+}
+
+
+
+.oMnieText{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #1A2C30;
+    width: 80%;
+    padding: 30px;
+    padding-top: 0px;
+}
+
+
+.site #foot {
+    text-align: center;
+    background: #F7CE42;
+    height: 20px;
+}
+.site #foot p {
+    font-family: 'Lato', sans-serif;
+    font-size: 8px;
+}
+
+
+/*---- KONTAKT --- */
+
+.kontaktBox{
+    padding-left: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.socialMedia{
+    width: 100%;
+}
+
+.kontaktText{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.socialMedia p{
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.facebookBlock{
+    display: inline-block;
+    height: 47px;
+    width: 150px;
+    background-color: #3B5998;
+    margin-left: 0px;
+    border-radius: 5px;
+}
+
+.facebookBlock p{
+    padding-top: 12px;
+    text-decoration: none;
+}
+
+.facebookBlock a{
+    text-decoration: none;
+}
+
+.facebookBlock:hover{
+    cursor: pointer;
+    box-shadow: 0 0px 15px rgb(103, 136, 207);
+}
+
+.twitterBlock{
+    display: inline-block;
+    height: 47px;
+    width: 150px;
+    background-color: #00ACEE;
+    margin-left: 0px;
+    border-radius: 5px;
+}
+
+.twitterBlock p{
+    padding-top: 12px;
+}
+
+.twitterBlock a{
+    text-decoration: none;
+}
+
+.twitterBlock:hover{
+    cursor: pointer;
+    box-shadow: 0 0px 15px rgb(92, 198, 238);
+}
+
+
+.behanceBlock{
+    display: inline-block;
+    height: 47px;
+    width: 150px;
+    background-color: #053EFF;
+    margin-left: 0px;
+    border-radius: 5px;
+}
+
+.behanceBlock p{
+    padding-top: 12px;
+}
+
+.behanceBlock a{
+    text-decoration: none;
+}
+
+.behanceBlock:hover{
+    cursor: pointer;
+    box-shadow: 0 0px 15px rgb(70, 105, 227);
+}
+
+.dribbbleBlock{
+    display: inline-block;
+    height: 47px;
+    width: 150px;
+    background-color: #EA4C89;
+    margin-left: 0px;
+    border-radius: 5px;
+}
+
+.dribbbleBlock a{
+    text-decoration: none;
+}
+
+.dribbbleBlock p{
+    padding-top: 12px;
+}
+
+.dribbbleBlock:hover{
+    cursor: pointer;
+    box-shadow: 0 0px 15px rgb(238, 122, 167);
+}
+
+.randomLinkBlock{
+    display: inline-block;
+    height: 47px;
+    width: 150px;
+    background-color: #131212;
+    margin-left: 0px;
+    border-radius: 5px;
+}
+
+.randomLinkBlock p{
+    padding-top: 12px;
+}
+
+.randomLinkBlock a{
+    text-decoration: none;
+}
+
+.randomLinkBlock:hover{
+    cursor: pointer;
+    box-shadow: 0 0px 15px rgb(46, 46, 50);
+}
+
+
+
+/*-------HOBBY-------*/
+
+.kafelekLewy{
+    height: 362px;
+    padding-left: 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kafelekLewy p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 20%;
+    padding-top: 10px;
+}
+
+.kafelekLewy img{
+    width: 82px;
+    height: 82px;
+    border: 3px solid #F7CE42;
+    margin-left: 40%;
+}
+
+.kafelekPrawy{
+    height: 362px;
+    padding: 0px;
+    width: 100%;
+}
+
+.kafelekPrawy p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 20%;
+    padding-top: 10px;
+}
+
+.kafelekPrawy img{
+    width: 82px;
+    height: 82px;
+    border: 3px solid #F7CE42;
+    margin: 0px;
+    margin-right: 40%;
+}
+
+/* -----MOJE ZDJECIA---- */
+
+.galeria{
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.zdjecie{
+    width: 70px;
+    border: 3px solid #F7CE42;
+}
+
+.zdjecie img {
+    width: 70px;
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+
+.chowaj{
+    padding-left: 33%;
+    margin-bottom: 20px;
+
+}
+
+.schowajTekst{
+    background-color: #F7CE42;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.schowajTekst:hover{
+    cursor: pointer;
+    box-shadow: 0 3px 15px rgb(245, 216, 120);
+}

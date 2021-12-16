@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Strona testowa z podziałem na trzy części</title>
+    <meta name="description" content="Ta strona stanowi podstawowy szablon HTML5">
+    <meta name="keywords" content="HTML5,szablon,CSS">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="desktopStyle.css" rel="stylesheet" media="screen and (min-width:1124px)">
+    <link href="tabletStyle.css" rel="stylesheet" media="screen and (max-width:1123px)">
+    <link href="mobileStyle.css" rel="stylesheet" media="screen and (max-width:868px)">
+
+    <script src="script.js"></script>
+
+
+</head>
+<body class="site">
+
+<div id="main">
+
+    <header id="header">
+        <h1>Paweł Kołodziej</h1>
+    </header>
+    <div class="maincontent">
+        <div class="sidebarLeft">
+            <ul id="menu">
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="MojeZdjecia.html">Zdjecia</a></li>
+                <li><a href="Hobby.html"> Hobby </a></li>
+                <li><a href="Kontakt.html"> Kontakt </a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="omnieAndYellowBlock">
+                <div class="yellowBlock"></div>
+                <h1>Witaj na mojej stronie</h1>
+            </div>
+            <div class="quoteAndPhoto">
+
+                    <img src="img/face.png"/>
+
+                        <p class="quote">
+                            "Proin posuere massa ac</br> risus tristique, ac <span class="yellowWord"> auctor  </br> sapien </span>volutpat."
+                        </p>
+                        <br>
+                        <!--<p class="underQuote">Integer consequat justo rutrum, rutrum diam ut, commodo velit. Ut<br> finibus, nisl non <span class="yellowWord"><b>malesuada pulvinar</b></span> est justo aliquam urna, sed<br> blandit lorem arcu eget felis.<br>-->
+                            <!--<span class="yellowWord"><b> Aliquam mi nibh</b></span> iaculis eu tortor id, convallis lacinia est.</p>-->
+            </div>
+
+            <div class="chowaj">
+                <button class="schowajTekst" onclick="myFunction()">Schowaj/Pokaż tekst</button>
+            </div>
+            <div id="myDIV">
+                <p class="oMnieText">
+                </br>
+                <b>Nunc et finibus lacus.</b> </br>
+                    Ut tincidunt ex at lorem faucibus facilisis. Morbi vitae mattis libero, in varius sapien. Proin rhoncus mi eget aliquet rutrum. Nullam facilisis velit quis sem ornare varius. Ut viverra consequat nulla, sed sagittis augue iaculis sed. Fusce et ante vehicula, maximus ipsum eu, facilisis ipsum.</br>
+                    </br>
+                    <b>Suspendisse ultrices urna quis tellus vehicula faucibus.</b></br>
+                    Mauris cursus molestie mattis. Suspendisse ornare felis at iaculis cursus. Phasellus ipsum velit, iaculis non efficitur in, imperdiet egestas ex. Phasellus rhoncus lacus ac maximus imperdiet. Quisque lacinia varius pulvinar. Sed risus dui, fermentum eget urna eget, ornare cursus turpis.</br>
+                    </br>
+                    <b>Nullam sed eros non risus viverra blandit.</b></br>
+                    Cras vel quam risus. Pellentesque id iaculis tortor, a gravida enim. Phasellus laoreet semper mauris, id dignissim lorem tincidunt ultrices. In dignissim, ligula non bibendum commodo, mi elit hendrerit lorem, in iaculis nulla est at est:</br>
+                    - nulla posuere,</br>
+                    - turpis urna,</br>
+                    - sed vehicula sapien dictum vitae,</br>
+                </p>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+
+    <footer id="foot">
+        <p>&copy;2020	Stopka strony Paweł Kołodziej</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
+
